@@ -1,12 +1,3 @@
-# Практическая работа №1: Основы Kotlin - переменные и функции
-
-## Вариант 3
-
-### Задание
-В запишите программу, которая вычисляет сумму двухзначного числа.
-
-### Код программы
-```kotlin
 fun main() {
     val twoDigitNumber = 57
     val sumOfDigits = calculateSumOfDigits(twoDigitNumber)
@@ -31,5 +22,3 @@ fun calculateSumOfDigits(number: Int): Int {
 
     return tens + ones
 }
-```
-<img src="Снимок.JPG">
